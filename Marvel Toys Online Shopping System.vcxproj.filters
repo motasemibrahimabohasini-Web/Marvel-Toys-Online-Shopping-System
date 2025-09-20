@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Object Classes">
+      <UniqueIdentifier>{f4fe063f-bead-4d5c-af41-d0e03eb446af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes">
+      <UniqueIdentifier>{90cd3845-89ef-450a-8854-396359c2e355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen">
+      <UniqueIdentifier>{44a33709-8c54-48dc-a7d7-3d4419dba0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen">
+      <UniqueIdentifier>{f2cc581d-c9bf-4f23-99b2-839d911e6be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen">
+      <UniqueIdentifier>{cc3abc51-850d-495c-b2a8-d5d46293fd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\Customer Login Screen">
+      <UniqueIdentifier>{1ebe35d9-d2e2-4002-88e2-8697f966c4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen">
+      <UniqueIdentifier>{e645b1de-7200-4f0a-9301-7bfab28ee213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen">
+      <UniqueIdentifier>{5e2fe9b2-2b83-427e-a1b9-c0fb388b6f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu">
+      <UniqueIdentifier>{3fb06418-70e9-4de2-a28a-732e61942d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen">
+      <UniqueIdentifier>{bcb63717-daad-454b-b9c2-122465a87c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen">
+      <UniqueIdentifier>{ad08a476-735f-4280-b3ce-32ce7fb1c974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens Classes\Login Screen\Customer Login Screen\Customers Menu Option">
+      <UniqueIdentifier>{c0d19478-d83b-4504-81bb-d31848861aa1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Marvel Toys Online Shopping System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Products.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Orders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsGlobal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonFunctions.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Customers.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderItems.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Orders.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Products.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\Screens Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUserLoginScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLoginScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUserMenuScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageProductsMenuScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustoemrsLoginScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\Customer Login Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAllProductsScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewProductScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteProductScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateProductScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindProductScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Products Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageOrdersMenuScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAllOrdersScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewOrderScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindOrderScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateOrderScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteOrderScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Manage Orders Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAdminMenuScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAccessDeniedScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageCustomersMenu.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAllCustomersScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewCustomerScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateCustomerScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageUsersMenuScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteCustomerScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindCustomerScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Customers Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAllUsersScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewUserScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateUserScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteUserScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindUserScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\User Login Screen\User Menu Screen\Admin Menu Screen\Manage Users Menu Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomersMenuOptionScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\Customer Login Screen\Customers Menu Option</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewCartScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\Customer Login Screen\Customers Menu Option</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerBillScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\Customer Login Screen\Customers Menu Option</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerAccountInfoScreen.h">
+      <Filter>Header Files\Screens Classes\Login Screen\Customer Login Screen\Customers Menu Option</Filter>
+    </ClInclude>
+    <ClInclude Include="clsGlobal.h">
+      <Filter>Header Files\Object Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
